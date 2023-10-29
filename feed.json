@@ -1,0 +1,28 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "KICUB LOGS!!!!!",
+    "description": "",
+    "home_page_url": "https://chrischrislolo.github.io/orthoLabLogs",
+    "feed_url": "https://chrischrislolo.github.io/orthoLabLogs/feed.json",
+    "user_comment": "",
+    "icon": "https://chrischrislolo.github.io/orthoLabLogs/media/website/kicub.png",
+    "author": {
+        "name": "sporewoh"
+    },
+    "items": [
+        {
+            "id": "https://chrischrislolo.github.io/orthoLabLogs/hello-wormhole.html",
+            "url": "https://chrischrislolo.github.io/orthoLabLogs/hello-wormhole.html",
+            "title": "HELLO WORMHOLE",
+            "summary": "HELLO!!!!!!!!!!!!!!!!!!!!! This is my test post made with publii. It's very cool as a quick way to whip up blog posts. The current plan is to have all of my keyboard logs/findings/side projects here. Visibility will be low but this is mostly as a way&hellip;",
+            "content_html": "<p>HELLO!!!!!!!!!!!!!!!!!!!!!</p>\n<p>This is my test post made with publii. It's very cool as a quick way to whip up blog posts.</p>\n<p>The current plan is to have all of my keyboard logs/findings/side projects here. Visibility will be low but this is mostly as a way to keep technical tabs and documentation on what I've been experimenting with. </p>",
+            "author": {
+                "name": "sporewoh"
+            },
+            "tags": [
+            ],
+            "date_published": "2023-10-25T21:54:06-05:00",
+            "date_modified": "2023-10-29T00:23:58-05:00"
+        }
+    ]
+}

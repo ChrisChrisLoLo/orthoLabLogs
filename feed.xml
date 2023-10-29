@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>KICUB LOGS!!!!!</title>
+    <link href="https://chrischrislolo.github.io/orthoLabLogs/feed.xml" rel="self" />
+    <link href="https://chrischrislolo.github.io/orthoLabLogs" />
+    <updated>2023-10-29T00:23:58-05:00</updated>
+    <author>
+        <name>sporewoh</name>
+    </author>
+    <id>https://chrischrislolo.github.io/orthoLabLogs</id>
+
+    <entry>
+        <title>HELLO WORMHOLE</title>
+        <author>
+            <name>sporewoh</name>
+        </author>
+        <link href="https://chrischrislolo.github.io/orthoLabLogs/hello-wormhole.html"/>
+        <id>https://chrischrislolo.github.io/orthoLabLogs/hello-wormhole.html</id>
+
+        <updated>2023-10-29T00:23:58-05:00</updated>
+            <summary>
+                <![CDATA[
+                    HELLO!!!!!!!!!!!!!!!!!!!!! This is my test post made with publii. It's very cool as a quick way to whip up blog posts. The current plan is to have all of my keyboard logs/findings/side projects here. Visibility will be low but this is mostly as a way&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>HELLO!!!!!!!!!!!!!!!!!!!!!</p>
+<p>This is my test post made with publii. It's very cool as a quick way to whip up blog posts.</p>
+<p>The current plan is to have all of my keyboard logs/findings/side projects here. Visibility will be low but this is mostly as a way to keep technical tabs and documentation on what I've been experimenting with. </p>
+            ]]>
+        </content>
+    </entry>
+</feed>
