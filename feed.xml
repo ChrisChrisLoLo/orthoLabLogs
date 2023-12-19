@@ -3,12 +3,66 @@
     <title>KICUB LOGS!!!!!</title>
     <link href="https://chrischrislolo.github.io/orthoLabLogs/feed.xml" rel="self" />
     <link href="https://chrischrislolo.github.io/orthoLabLogs" />
-    <updated>2023-11-27T01:17:13-06:00</updated>
+    <updated>2023-12-19T00:09:20-07:00</updated>
     <author>
         <name>sporewoh</name>
     </author>
     <id>https://chrischrislolo.github.io/orthoLabLogs</id>
 
+    <entry>
+        <title>modkipz40 (how I used ergogen for the first time)</title>
+        <author>
+            <name>sporewoh</name>
+        </author>
+        <link href="https://chrischrislolo.github.io/orthoLabLogs/modkipz40-how-i-used-ergogen-for-the-first-time.html"/>
+        <id>https://chrischrislolo.github.io/orthoLabLogs/modkipz40-how-i-used-ergogen-for-the-first-time.html</id>
+
+        <updated>2023-12-19T00:09:20-07:00</updated>
+            <summary>
+                <![CDATA[
+                    Purpose: Discuss how I made the modkipz40, my new "ergonomic" pocket board that uses mouse switches. Talk about my first experience using ergogen, it's advantages and drawbacks, as well how this project shifted my view on keyboard ergonomics. I thoroughly enjoyed making and using my&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/PXL_20231210_225209197.NIGHT.jpg" alt="" width="4080" height="3072" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/PXL_20231210_225209197.NIGHT-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/PXL_20231210_225209197.NIGHT-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/PXL_20231210_225209197.NIGHT-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/PXL_20231210_225209197.NIGHT-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/PXL_20231210_225209197.NIGHT-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/PXL_20231210_225209197.NIGHT-2xl.jpg 1600w"></figure>
+<h2>Purpose:</h2>
+<p>Discuss how I made the modkipz40, my new "ergonomic" pocket board that uses mouse switches. Talk about my first experience using ergogen, it's advantages and drawbacks, as well how this project shifted my view on keyboard ergonomics.</p>
+<h2>Problem:</h2>
+<p>I thoroughly enjoyed making and using my <a href="https://chrischrislolo.github.io/orthoLabLogs/bunchiez40-how-i-built-a-keyboard-using-mouse-switches.html">bunchiez40</a> keyboard, which was the first board of mine to use mouse switches (that is, the buttons that you can find in computer mice). I like this kind of board so much that I've come up with a new term for its kind: pocket board.</p>
+<p>However, one of the biggest issues with the board for me was its tight key spacing. Ironically, the issue though was not with typing speed, but rather the ulnar deviation that occurred when I was typing on the board. This occurred because I had to move my hands closer together.</p>
+<figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/PXL_20231122_0342034091.jpg" alt="" width="3072" height="4080" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/PXL_20231122_0342034091-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/PXL_20231122_0342034091-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/PXL_20231122_0342034091-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/PXL_20231122_0342034091-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/PXL_20231122_0342034091-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/PXL_20231122_0342034091-2xl.jpg 1600w"></figure>
+<p>My wrists started to hurt after extended typing sessions, both due to what I think is compression of the ulnar tunnel, as well as compression of the carpal tunnel. I was generally able to over come the carpal tunnel compression by assuming a proper typing form that didn't compress my wrists against the table (along with proper wrist streching before hand). However, my ulnar tunnel still ached considerably, meaning I needed to develop a new pocket board to account for this before I caused any permanent strain and damage to my wrists. </p>
+<h2>Solution:</h2>
+<p>The solution to reducing ulnar deviation in the keyboard world is generally to angle the the halves of the board such that the hand is relatively parallel with the rest of the arm, such that the wrist doesn't have to deviate much from it's resting position. This would mean I would have to tilt the two haves of the keyboard inwards to reduce any ulnar deviation.</p>
+<figure class="post__image"><img loading="lazy"  src="https://samarpanphysioclinic.com/wp-content/uploads/2023/06/radial-_-ulnar-Deviation-1200x1109.webp" alt="Radial And Ulnar Deviation Of The Wrist - Movement, Muscles, ROM" width="414" height="382" aria-hidden="false" data-is-external-image="true"></figure>
+<p>The most widely used tool in the community to make boards like this would be Ergogen. Ergogen's biggest strength is that it creates vectors of a keyboards shape based on the YAML fed into it. The YAML configuration allows for ergonomic keyboard shapes, since it's easy to define key spacing, key/column angles, and any offsets desired.</p>
+<h2>My experience with Ergogen:</h2>
+<p>I had previously tried to use Ergogen to make my first project years ago (specifically for the <a href="https://github.com/ChrisChrisLoLo/youwu36">youwu36</a>). The two biggest issues with it I found though, were that I was trying to use it as a crutch as an alternative to understanding KiCad (as I didn't know how to fully use KiCad at the time), and that I found the <a href="https://docs.ergogen.xyz/">documentation</a> tricky to parse. At time of writing, I still find it hard to understand how certain examples in the docs fit into the larger picture of making a keyboard (it can read more like an API sheet than a guide), and examples in the Outlines section weren't loading altogether.</p>
+<figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/Screenshot-2023-12-18-at-12.09.40-AM.png" alt="" width="1028" height="790" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-12.09.40-AM-xs.png 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-12.09.40-AM-sm.png 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-12.09.40-AM-md.png 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-12.09.40-AM-lg.png 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-12.09.40-AM-xl.png 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-12.09.40-AM-2xl.png 1600w"></figure>
+<p>Upon revisting Ergogen years later to try to use it for this project, I stumbled upon this <a href="https://flatfootfox.com/ergogen-introduction/">guide</a> by FlatFootFox. I think this guide is awesome, since it nicely structures Ergogen concepts into a logical sequence, provides detailed information on what each snippet of YAML is doing, and most importantly, provides clear holistic examples of what you can do with Ergogen. This is an awesome guide that allowed me to quickly whip up exactly what I wanted in terms of outlines. I was able to generate the shape of the PCB, plate, and case all in a single vector outline.</p>
+<figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/Screenshot-2023-12-18-at-12.26.03-AM.png" alt="" width="975" height="612" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-12.26.03-AM-xs.png 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-12.26.03-AM-sm.png 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-12.26.03-AM-md.png 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-12.26.03-AM-lg.png 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-12.26.03-AM-xl.png 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-12.26.03-AM-2xl.png 1600w"></figure>
+<p>I used the outline in KiCad by importing the DXF and then setting the outer lines to edgecuts to define the PCB shape. I also used the YAML in conjunction with the <a href="https://github.com/adamws/kicad-kbplacer">kicad-kbplacer</a> plugin to set the switch positions.</p>
+<p>To make the case, I used the DXF in Fusion360 by importing the outline file and then selecting the shapes I wanted to extrude. Extruding the shapes allowed me to easily both make the bottom half and top half of the case relatively parametrically.</p>
+<figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/Screenshot-2023-12-18-at-12.34.14-AM.png" alt="" width="1502" height="899" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-12.34.14-AM-xs.png 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-12.34.14-AM-sm.png 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-12.34.14-AM-md.png 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-12.34.14-AM-lg.png 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-12.34.14-AM-xl.png 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-12.34.14-AM-2xl.png 1600w"></figure>
+<p>For KiCad and Fusion, while I am happy with the final result, I do wonder if I can refine the creation process a bit in the future. In KiCad, I had to manually shift the grid of switches onto the PCB, which was time consuming and somewhat imprecise (I understand that Ergogen has an ability to export KiCad files, though I wasn't sure how to get it to easily use the mouse switch footprints I needed to use). For Fusion, the model is only partially parametric; any changes in the Ergogen file meant a new DXF file, which means I would have to redo or reassociate a good chunk of extrusions and steps there after.</p>
+<h2>Results:</h2>
+<figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/PXL_20231210_224330513.jpg" alt="" width="4080" height="3072" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/PXL_20231210_224330513-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/PXL_20231210_224330513-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/PXL_20231210_224330513-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/PXL_20231210_224330513-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/PXL_20231210_224330513-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/PXL_20231210_224330513-2xl.jpg 1600w"></figure>
+<p>After assembly, I was happy to find that the angled keys significantly improved the comfort of my wrists, even though the rotation angle was at a modest 10 degrees. I can now type all day without any sort of discomfort from my ulnar tunnel. My typing speed has also improved. On a good day I'm now able to type at about ~95 wpm on monkeytype with this board. This is roughly a ~10 wpm gain from the bunchiez40. I'm not entirely sure if this is due to the "ergonomics" of the pocket board, the new huano black mute switches I'm using, or because of the practice I've accumulated typing on these keys. In any case, this board is viable for everyday use, and I don't feel like it's much of a bottleneck in terms of converting my thoughts into keystrokes.</p>
+<p>Ultimately I'm very happy I spent the time to learn how to make an ergonomic board. Not only does it give me more creative flexibility to make something comfortable and aesthetically pleasing, but I think with a bit more practice it can potentially speed up my current keyboard design workflow, just due to how easy it is to specify both PCB and case outlines in a single file.</p>
+<h2>Future Plans:</h2>
+<p>I think this keyboard is comfortable enough for me to daily drive (I'm currently using it to write this blog post), though I still think there can be room for improvement. In particular, I'd like the switches to be lower profile to reduce wrist extension. I'd also like to see if I can reduce the actuation force in an attempt to require less force when typing. The two biggest switches I'd like to experiment with as a resuilt would be the 4.3mm Huano/Kailh mute switch, as well as the Panasonic EVQPO/EVQQ2 SMD light touch switch. </p>
+<figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/Screenshot-2023-12-18-at-1.10.00-PM-2.png" alt="" width="244" height="153" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-1.10.00-PM-2-xs.png 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-1.10.00-PM-2-sm.png 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-1.10.00-PM-2-md.png 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-1.10.00-PM-2-lg.png 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-1.10.00-PM-2-xl.png 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/5/responsive/Screenshot-2023-12-18-at-1.10.00-PM-2-2xl.png 1600w"></figure>
+<p>I think either kind of switch should be slightly more comfortable, and the idea of using SMD switches is exciting, since it means I can put other components on the back of the PCB (such as a battery or the like).</p>
+<h2>Conclusion:</h2>
+<p>I had a lot of fun making the modkipz40, since it required me to learn basic wrist ergonomics and anatomy, as well as pick up the popular Ergogen tool that all the cool kids are using. There's some sort of irony that my tiny boards forced me to understand and appretiate the basics of keyboard ergonomics. I certainly plan to use Ergogen more for future projects, and I'm excited that there's still room for exploration with my pocket boards.</p>
+<h2>Acknowledgments:</h2>
+<p>Big thank you to BeeKeeb and kurihara for sponsoring me on <a href="https://github.com/ChrisChrisLoLo">Github</a> and <a href="https://ko-fi.com/sporewoh">ko-fi</a>. Your generous contributions help me to continue to experiment and iterate on weird new board designs like this, and allow me to continue to do what I love. </p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>bunchiez40 (how I built a keyboard using mouse switches)</title>
         <author>
@@ -19,7 +73,7 @@
             <category term="research"/>
             <category term="keyboard"/>
 
-        <updated>2023-11-27T01:17:13-06:00</updated>
+        <updated>2023-12-18T00:54:09-07:00</updated>
             <summary>
                 <![CDATA[
                     Objective: bunchiez40 is my new tiny keyboard that uses unique switches to achieve it's form factor while still making it viable to type 85+ wpm on. In this log, I will discuss my cool new keyboard, how I got to this point, as well as&hellip;
@@ -68,7 +122,7 @@
         <link href="https://chrischrislolo.github.io/orthoLabLogs/my-thoughts-on-openscad-and-why-cad-as-code-is-cool.html"/>
         <id>https://chrischrislolo.github.io/orthoLabLogs/my-thoughts-on-openscad-and-why-cad-as-code-is-cool.html</id>
 
-        <updated>2023-10-29T16:18:22-05:00</updated>
+        <updated>2023-10-29T15:18:22-06:00</updated>
             <summary>
                 <![CDATA[
                     Wowowow 3D cool Purpose: This article will talk about my opinions about OpenSCAD, alternatives, and CAD as code as a novice. I want to jot my thoughts down here, but I acknowledge that there's still room for me to find a better solution/workflow than what&hellip;
@@ -147,7 +201,7 @@
         <link href="https://chrischrislolo.github.io/orthoLabLogs/hello-wormhole.html"/>
         <id>https://chrischrislolo.github.io/orthoLabLogs/hello-wormhole.html</id>
 
-        <updated>2023-10-29T00:23:58-05:00</updated>
+        <updated>2023-10-28T23:23:58-06:00</updated>
             <summary>
                 <![CDATA[
                     HELLO!!!!!!!!!!!!!!!!!!!!! This is my test post made with publii. It's very cool as a quick way to whip up blog posts. The current plan is to have all of my keyboard logs/findings/side projects here. Visibility will be low but this is mostly as a way&hellip;
