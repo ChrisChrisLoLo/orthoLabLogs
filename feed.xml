@@ -1,14 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <title>KICUB LOGS!!!!!</title>
+    <title>Ortho lab logs!!</title>
     <link href="https://chrischrislolo.github.io/orthoLabLogs/feed.xml" rel="self" />
     <link href="https://chrischrislolo.github.io/orthoLabLogs" />
-    <updated>2023-12-19T00:09:20-07:00</updated>
+    <updated>2024-01-28T21:09:06-06:00</updated>
     <author>
         <name>sporewoh</name>
     </author>
     <id>https://chrischrislolo.github.io/orthoLabLogs</id>
 
+    <entry>
+        <title>pusheenz40 (how I found the perfect SMD key switch)</title>
+        <author>
+            <name>sporewoh</name>
+        </author>
+        <link href="https://chrischrislolo.github.io/orthoLabLogs/pusheenz40.html"/>
+        <id>https://chrischrislolo.github.io/orthoLabLogs/pusheenz40.html</id>
+        <media:content url="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/PXL_20240128_191510082-2.jpg" medium="image" />
+            <category term="keyboard"/>
+
+        <updated>2024-01-28T21:09:06-06:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/PXL_20240128_191510082-2.jpg" alt="" />
+                    Purpose: Talk about my latest keyboard, the pusheenz40, as well as the SMD switches it uses. Addtionally cover the design process to make keycaps for the SMD switches. My last pocket keyboard, the modkipz40, was a board that I was fairly satisfied with. It was&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/PXL_20240128_191510082-2.jpg" class="type:primaryImage" alt="" /></p>
+                <figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/PXL_20240128_191510082.jpg" alt="Picture of the pusheenz40" width="4080" height="3072" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240128_191510082-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240128_191510082-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240128_191510082-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240128_191510082-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240128_191510082-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240128_191510082-2xl.jpg 1600w"></figure>
+<h2>Purpose:</h2>
+<p>Talk about my latest keyboard, the pusheenz40, as well as the SMD switches it uses. Addtionally cover the design process to make keycaps for the SMD switches.</p>
+<h2>Problem:</h2>
+<p>My last pocket keyboard, the <a href="https://chrischrislolo.github.io/orthoLabLogs/modkipz40-how-i-used-ergogen-for-the-first-time.html" target="_blank" rel="noopener noreferrer">modkipz40</a>, was a board that I was fairly satisfied with. It was both pretty comfortable on my wrists, and looked pretty decent as well. However, it still had a minor pain point of the kailh mute switches I was using. The switches were a bit tricky to type on given their small size, and a bit uncomfortable to type on as well for prolonged periods of time. It also made the board a tad bit thicker than I thought it could be.</p>
+<figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/PXL_20240129_0155080381.jpg" alt="modkipz40 image" width="4080" height="3072" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240129_0155080381-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240129_0155080381-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240129_0155080381-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240129_0155080381-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240129_0155080381-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240129_0155080381-2xl.jpg 1600w"></figure>
+<p>Ideally, I could make something that was a bit thinner and a bit more confortable to use. Initially, the idea of having the keyboard just consist of a pcb and be the thickness of a credit card also excited me.</p>
+<h2>Solution:</h2>
+<p>When browsing for potential mouse switches to use for my pocket boards, I stumbled upon the panasonic EVQP0N02B, an SMD switch that was used in some Microsoft and Xiaomi mice.</p>
+<figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/20230203_PANASONIC-EVQP0N02B_C713479_front.jpg" alt="" width="900" height="900" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/20230203_PANASONIC-EVQP0N02B_C713479_front-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/20230203_PANASONIC-EVQP0N02B_C713479_front-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/20230203_PANASONIC-EVQP0N02B_C713479_front-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/20230203_PANASONIC-EVQP0N02B_C713479_front-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/20230203_PANASONIC-EVQP0N02B_C713479_front-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/20230203_PANASONIC-EVQP0N02B_C713479_front-2xl.jpg 1600w"></figure>
+<p>This switch really interested me because it was low profile, SMD, and available on LCSC. It being low profile meant I could have a board that was ultra thin as the switches would no longer be the limiting factor. It being SMD meant that I also didn't have to worry about the pokey through hole bits, which take up vertical space (and also opens the door to having, say, a lipo battery on the other side of the pcb). It being on LCSC meant I could hypothetically have a "zero-assembly" keyboard since it could just be assembled for me through JLCPCB. This biggest downside on paper was that the durablility rating for these switches was only 1 milion actuations, which is 2 million less than what's stated for kailh mute switches. I still thought that 1 million was both considerably more than other tactile switches, and should be sufficient for the sake of this keyboard, assuming the lifetime of this board goes down to maybe a couple of years of frequent use.</p>
+<p>I basically took the modkipz40 pcb, swapped in the smd footprint in, and sent the order off to JLCPCB. This meant the keyboard would still be using the awesome STM32F072C8Tx MCU</p>
+<h2>Initial Thoughts:</h2>
+<figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/PXL_20231229_164239394.jpg" alt="a pusheenz40 pcb" width="4080" height="3072" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231229_164239394-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231229_164239394-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231229_164239394-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231229_164239394-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231229_164239394-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231229_164239394-2xl.jpg 1600w"></figure>
+<p>I was pretty excited when the pcb came in! I added a topology graphic to the pcb's silkscreen, and I thought it looked pretty nice! I was exited to try the keyboard pcb as-is, in the hope of having an ultra flat creditcard thickness board. However, I got pretty disappointed when trying to type on the board. I got roughly words per minute in the 30s in monkeytype, which was less than half then that of what I get with the modkipz40. Worse yet, the thumb keys <em>hurt</em> like crazy, since my thumbs ended up jamming into the sharp metal corners of the switches more often than not. It was clear to me that as-is, this board wouldn't be viable, and that I would have to add some sort of keycap to make typing on this possible</p>
+<h2>Developing custom keycaps:</h2>
+<p>In my initial attempts of the <a href="https://chrischrislolo.github.io/orthoLabLogs/bunchiez40-how-i-built-a-keyboard-using-mouse-switches.html" target="_blank" rel="noopener noreferrer">bunchiez40</a> and <a href="https://chrischrislolo.github.io/orthoLabLogs/modkipz40-how-i-used-ergogen-for-the-first-time.html" target="_blank" rel="noopener noreferrer">modkipz40</a>, I had tried to make my own 3D printed buttons to go ontop of of the kailh buttons. The biggest issue by far is that these switches have no keycap stem, so there's no easy way of attaching any form of keycap onto the switche. Other big issues was that it was really difficult coming up with a design that was easily 3D printable, and reliable. I had several iterations of switches that were joined together to the keyboard case, and used some form of compliant mechanism as a means of movement. All iterations ended up failing for several reasons, some of them being that they introduced too much height to the board, or because they were near impossible to produce well. I ended up abandoning the idea in favour of typing on the kailh switches directly.</p>
+<p>During my research process, I wanted to figure out how a kailh mute switch acutally worked, and tore one down.</p>
+<figure class="post__image" ><img loading="lazy" src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/PXL_20231016_232356702.jpg" alt="clipped kailh mute switche" width="4080" height="3072" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231016_232356702-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231016_232356702-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231016_232356702-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231016_232356702-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231016_232356702-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231016_232356702-2xl.jpg 1600w">
+<figcaption >Kailh switch that I clipped to tear open. RIP 2023-2023</figcaption>
+</figure>
+<figure class="post__image" ><img loading="lazy" src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/PXL_20231016_232134804.jpg" alt="" width="4080" height="3072" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231016_232134804-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231016_232134804-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231016_232134804-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231016_232134804-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231016_232134804-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231016_232134804-2xl.jpg 1600w">
+<figcaption >Red slider slides along the rails of the bottom housing</figcaption>
+</figure>
+<figure class="post__image" ><img loading="lazy" src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/PXL_20231016_232602493.jpg" alt="" width="4080" height="3072" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231016_232602493-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231016_232602493-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231016_232602493-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231016_232602493-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231016_232602493-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20231016_232602493-2xl.jpg 1600w">
+<figcaption >In order: the connective leads and bottom housing, the metal button disc, the grey membrance, the black top housing, and the red cap</figcaption>
+</figure>
+<p>The teardown proved to be exceptionally informative, since it broke down what was required for a switch of this size. As seen in the third picture, the red "cap" has a sliding piece sticking out that slides along the rails of the grey body, and is held in place by the black top case. The red cap can depress the grey silicon membrane, which can cause the metal disc to collapse in to make an connection with the two metal leads. These components are very similar to that of the joycon buttons as well.</p>
+<p>The most interesting observation in my mind was that the SMD buttons I had effectively act as the bottom 3 components of the switch. If I designed and added my own caps and top housing, then I'd effectively have my own "complete switch" that should be much easier to type on. The best part is that if I make the cap and top housing myself, I can tweak it to my liking, and tune it's size and height to my hearts content.</p>
+<p>I used ergogen to make a new case for my board. Most notably, I added in "slider rails" to my cases integrated plate, so that the entire top plate could act as a slider and a top housing for my switches. From there I made caps similar to that of the kailh mute switch: generally cylindrical with knubs on each end that could fit into the sliders.</p>
+<figure class="post__image" ><img loading="lazy" src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/Screenshot-2024-01-28-at-8.41.19-PM.png" alt="" width="1602" height="1051" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/Screenshot-2024-01-28-at-8.41.19-PM-xs.png 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/Screenshot-2024-01-28-at-8.41.19-PM-sm.png 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/Screenshot-2024-01-28-at-8.41.19-PM-md.png 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/Screenshot-2024-01-28-at-8.41.19-PM-lg.png 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/Screenshot-2024-01-28-at-8.41.19-PM-xl.png 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/Screenshot-2024-01-28-at-8.41.19-PM-2xl.png 1600w">
+<figcaption >Case. Note the rails for each of the key holes.</figcaption>
+</figure>
+<h2>Results:</h2>
+<figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/20240128_131943.jpg" alt="" width="4080" height="3072" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/20240128_131943-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/20240128_131943-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/20240128_131943-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/20240128_131943-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/20240128_131943-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/20240128_131943-2xl.jpg 1600w"></figure>
+<p>After several iterations of refining the tolerances, such that the keycaps were neither sticky nor needlessly wobbly, I was able to make something I'm very happy with! I had to use the finest settings on my P1S 3D printer, but I was able to make something that was both very comfortable and relatively easy to type on! My fingertips no longer hurt and my wpm was able to spring back to to 80+ wpm. I was even able to get 100+ wpm on this board.</p>
+<figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/Screenshot-2023-12-27-at-11.32.16-AM.png" alt="my monkeytype wpm of 100 :)" width="913" height="668" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/Screenshot-2023-12-27-at-11.32.16-AM-xs.png 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/Screenshot-2023-12-27-at-11.32.16-AM-sm.png 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/Screenshot-2023-12-27-at-11.32.16-AM-md.png 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/Screenshot-2023-12-27-at-11.32.16-AM-lg.png 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/Screenshot-2023-12-27-at-11.32.16-AM-xl.png 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/Screenshot-2023-12-27-at-11.32.16-AM-2xl.png 1600w"></figure>
+<p>The screenshot itself isn't definitive proof for a skeptic, but you'll have to take my word on this one until I do a proper typing test :). I hope the image atleast is illustrative that typing on this board is viable for daily driving.</p>
+<p>The board is also super thin at around 8mm. In fact, it might almost be <em>too</em> thin given that a small part of my wrist bone rubs against my desk a bit. Not enough to cause carpel tunnel strain, but enough that I wouldn't mind if I went a couple millimeters higher.</p>
+<h2>Future Plans:</h2>
+<p>I think the idea of SMD switches is really exciting, since it opens up a <em>ton</em> of real estate on a pcb, and can reduce a lot of work required assembling a board, since it can mean that no soldering is required. The two most interesting projects that could result from this is either a board with a lipo at the back of it, or a board that's cheap and easy to produce and distribute.</p>
+<h2>Acknowledgments:</h2>
+<p>Huge thank you to BeeKeeb, TALPKEYBOARD, and kurihara for sponsoring me on <a href="https://github.com/ChrisChrisLoLo">Github</a> and <a href="https://ko-fi.com/sporewoh">ko-fi</a>!! These fun experimental builds wouldn't be possible without your generous support, and let me keep pushing the boundaries of keyboard design. If you found this project interesting or informative, or like to see me make more projects similar to this, please consider supporting me on Github or ko-fi!</p>
+<h2> </h2>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>modkipz40 (how I used ergogen for the first time)</title>
         <author>
@@ -17,7 +84,7 @@
         <link href="https://chrischrislolo.github.io/orthoLabLogs/modkipz40-how-i-used-ergogen-for-the-first-time.html"/>
         <id>https://chrischrislolo.github.io/orthoLabLogs/modkipz40-how-i-used-ergogen-for-the-first-time.html</id>
 
-        <updated>2023-12-19T00:09:20-07:00</updated>
+        <updated>2023-12-19T01:09:20-06:00</updated>
             <summary>
                 <![CDATA[
                     Purpose: Discuss how I made the modkipz40, my new "ergonomic" pocket board that uses mouse switches. Talk about my first experience using ergogen, it's advantages and drawbacks, as well how this project shifted my view on keyboard ergonomics. I thoroughly enjoyed making and using my&hellip;
@@ -73,7 +140,7 @@
             <category term="research"/>
             <category term="keyboard"/>
 
-        <updated>2023-12-18T00:54:09-07:00</updated>
+        <updated>2023-12-18T01:54:09-06:00</updated>
             <summary>
                 <![CDATA[
                     Objective: bunchiez40 is my new tiny keyboard that uses unique switches to achieve it's form factor while still making it viable to type 85+ wpm on. In this log, I will discuss my cool new keyboard, how I got to this point, as well as&hellip;
@@ -122,7 +189,7 @@
         <link href="https://chrischrislolo.github.io/orthoLabLogs/my-thoughts-on-openscad-and-why-cad-as-code-is-cool.html"/>
         <id>https://chrischrislolo.github.io/orthoLabLogs/my-thoughts-on-openscad-and-why-cad-as-code-is-cool.html</id>
 
-        <updated>2023-10-29T15:18:22-06:00</updated>
+        <updated>2023-10-29T16:18:22-05:00</updated>
             <summary>
                 <![CDATA[
                     Wowowow 3D cool Purpose: This article will talk about my opinions about OpenSCAD, alternatives, and CAD as code as a novice. I want to jot my thoughts down here, but I acknowledge that there's still room for me to find a better solution/workflow than what&hellip;
@@ -201,7 +268,7 @@
         <link href="https://chrischrislolo.github.io/orthoLabLogs/hello-wormhole.html"/>
         <id>https://chrischrislolo.github.io/orthoLabLogs/hello-wormhole.html</id>
 
-        <updated>2023-10-28T23:23:58-06:00</updated>
+        <updated>2023-10-29T00:23:58-05:00</updated>
             <summary>
                 <![CDATA[
                     HELLO!!!!!!!!!!!!!!!!!!!!! This is my test post made with publii. It's very cool as a quick way to whip up blog posts. The current plan is to have all of my keyboard logs/findings/side projects here. Visibility will be low but this is mostly as a way&hellip;
