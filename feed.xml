@@ -3,7 +3,7 @@
     <title>Ortho lab logs!!</title>
     <link href="https://chrischrislolo.github.io/orthoLabLogs/feed.xml" rel="self" />
     <link href="https://chrischrislolo.github.io/orthoLabLogs" />
-    <updated>2024-01-28T21:09:06-06:00</updated>
+    <updated>2024-01-28T22:57:25-06:00</updated>
     <author>
         <name>sporewoh</name>
     </author>
@@ -19,7 +19,7 @@
         <media:content url="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/PXL_20240128_191510082-2.jpg" medium="image" />
             <category term="keyboard"/>
 
-        <updated>2024-01-28T21:09:06-06:00</updated>
+        <updated>2024-01-28T22:57:25-06:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/PXL_20240128_191510082-2.jpg" alt="" />
@@ -31,7 +31,7 @@
                     <p><img src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/PXL_20240128_191510082-2.jpg" class="type:primaryImage" alt="" /></p>
                 <figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/PXL_20240128_191510082.jpg" alt="Picture of the pusheenz40" width="4080" height="3072" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240128_191510082-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240128_191510082-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240128_191510082-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240128_191510082-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240128_191510082-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240128_191510082-2xl.jpg 1600w"></figure>
 <h2>Purpose:</h2>
-<p>Talk about my latest keyboard, the pusheenz40, as well as the SMD switches it uses. Addtionally cover the design process to make keycaps for the SMD switches.</p>
+<p>Talk about my latest keyboard, the <a href="https://github.com/ChrisChrisLoLo/pusheenz40">pusheenz40</a>, as well as the SMD switches it uses. Addtionally cover the design process to make keycaps for the SMD switches.</p>
 <h2>Problem:</h2>
 <p>My last pocket keyboard, the <a href="https://chrischrislolo.github.io/orthoLabLogs/modkipz40-how-i-used-ergogen-for-the-first-time.html" target="_blank" rel="noopener noreferrer">modkipz40</a>, was a board that I was fairly satisfied with. It was both pretty comfortable on my wrists, and looked pretty decent as well. However, it still had a minor pain point of the kailh mute switches I was using. The switches were a bit tricky to type on given their small size, and a bit uncomfortable to type on as well for prolonged periods of time. It also made the board a tad bit thicker than I thought it could be.</p>
 <figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/PXL_20240129_0155080381.jpg" alt="modkipz40 image" width="4080" height="3072" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240129_0155080381-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240129_0155080381-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240129_0155080381-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240129_0155080381-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240129_0155080381-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/responsive/PXL_20240129_0155080381-2xl.jpg 1600w"></figure>
