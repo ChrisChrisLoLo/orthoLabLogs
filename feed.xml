@@ -3,7 +3,7 @@
     <title>Ortho lab logs!!</title>
     <link href="https://chrischrislolo.github.io/orthoLabLogs/feed.xml" rel="self" />
     <link href="https://chrischrislolo.github.io/orthoLabLogs" />
-    <updated>2024-02-25T21:21:55-06:00</updated>
+    <updated>2024-02-25T22:38:27-06:00</updated>
     <author>
         <name>sporewoh</name>
     </author>
@@ -17,8 +17,9 @@
         <link href="https://chrischrislolo.github.io/orthoLabLogs/idawgs32-how-i-made-a-full-keyboard-for-dollar6.html"/>
         <id>https://chrischrislolo.github.io/orthoLabLogs/idawgs32-how-i-made-a-full-keyboard-for-dollar6.html</id>
         <media:content url="https://chrischrislolo.github.io/orthoLabLogs/media/posts/9/PXL_20240225_225159875.jpg" medium="image" />
+            <category term="keyboard"/>
 
-        <updated>2024-02-25T21:21:55-06:00</updated>
+        <updated>2024-02-25T22:38:27-06:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/9/PXL_20240225_225159875.jpg" alt="" />
@@ -125,7 +126,7 @@ error: contract broken by the value of `layers`
 <p>Once I had the firmware set up, I was off to the races with monkeytype. From there however, the greatest flaws of the board was revealed; the switches. The G-Switch GT-TC063F-H035-L30 had greater travel than the Panasonic EVQP0N02B switches I was used to, and required a higher level of force to actuate at 70gf. These two factors combined made it more cumbersome to type on. This in conjunciton with the new 32 key layout and 9mm spacing reduced my wpm down from 100 wpm peak to maybe 83 wpm peak.</p>
 <p>Additionally, the keyboard felt considerably more scratchy than the pusheenz40, since the key buttons moved up and down more due to the greater travel, and had more opportunity to get stuck and caught on the 3d printed case. Thankfully I found applying Krytox to the key buttons helped the scratchyness considerably.</p>
 <p>Unfortunately, the final nail in the coffin for these swtiches were their reliability. I noticed that some keys didn't register unless I pressed fairly hard on them, even after they made a tactile click. At first I wondered if the firmware or pcb had some issue with noise and bouncing, but after a few afternoons of debugging, I confirmed that the problem did seem to be coming from the switch itself. </p>
-<p>Of the 5 PCBAs I had, all 5 of them had 1-5 defective swtiches that wouldn't register unless pressing well being it's tactile event or if pressing it at an certain angle. The best fix I can come up with so far is transplanting the silicone membrane and click disc of the a working button to a defective one. Unfortunately, while about as barbaric and naive as a plague doctor treatment, it does seem to be a semi-reliable means of fixing the issue. I suspect the issue might either be with misalginment of the click disc, the quality of the click disc or key membrane, or both.</p>
+<p>Of the 5 PCBAs I had, all 5 of them had 1-5 defective swtiches that wouldn't register unless pressing well beyond it's tactile event or if pressing it at an certain angle. The best fix I can come up with so far is transplanting the silicone membrane and click disc of the a working button to a defective one. Unfortunately, while about as barbaric and naive as a plague doctor treatment, it does seem to be a semi-reliable means of fixing the issue. I suspect the issue might either be with misalginment of the click disc, the quality of the click disc or key membrane, or both.</p>
 <p>Regardless of the issue, the defect rate is unacceptable, and unfortunately means that this current batch won't be something I'll want to give away. I plan to create a new idawgz32 revision using the tried and true EVQP0N02B once my pre-order of them is completed.</p>
 <h1>Conclusion</h1>
 <figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/9/PXL_20240225_225159875-2.jpg" alt="" width="4080" height="3072" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/9/responsive/PXL_20240225_225159875-2-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/9/responsive/PXL_20240225_225159875-2-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/9/responsive/PXL_20240225_225159875-2-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/9/responsive/PXL_20240225_225159875-2-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/9/responsive/PXL_20240225_225159875-2-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/9/responsive/PXL_20240225_225159875-2-2xl.jpg 1600w"></figure>
@@ -136,7 +137,7 @@ error: contract broken by the value of `layers`
 <h1>Acknowledgements</h1>
 <p>Thank you <a href="https://shop.beekeeb.com/">BeeKeeb</a>, <a href="https://talpkeyboard.net/">TALPKEYBOARD</a>, and <a href="https://kurihara.hatenadiary.jp/">kurihara</a> for being recurring sponsors on <a href="https://github.com/ChrisChrisLoLo">Github</a> and <a href="https://ko-fi.com/sporewoh">ko-fi</a>, as well as to all those who have donated!</p>
 <p>I am very grateful to have a community of people who enjoy my work as much as I do. With your support I'm able to keep making these hyper experimental boards, and learn a lot and document it along the way. If you found this project and process interesting, informative, or useful, or like to see me make more projects similar to this, please consider supporting me on Github or ko-fi!</p>
-<p>Another big thank you to <a href="https://github.com/semickolon">semickolon</a> for doing an incredible job with FAK, as well as for  the firmware help and support. semickolon's also working on a new, exciting firmware that will be able to work with wireless RISC-V chips! If you're interested, check out his discord <a href="https://discord.gg/4Ev8GFZNR2">here</a>! </p>
+<p>Another big thank you to <a href="https://github.com/semickolon">semickolon</a> for doing an incredible job with FAK, as well as for the firmware help and support. semickolon's also working on a new, exciting firmware that will be able to work with wireless RISC-V chips! If you're interested, check out his discord <a href="https://discord.gg/4Ev8GFZNR2">here</a>! </p>
 <p>If interested in my other projects, feel free to check out my discord <a href="https://discord.gg/m8vwnqJEsc">here</a>!</p>
             ]]>
         </content>
