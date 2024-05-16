@@ -3,7 +3,7 @@
     <title>Ortho lab logs!!</title>
     <link href="https://chrischrislolo.github.io/orthoLabLogs/feed.xml" rel="self" />
     <link href="https://chrischrislolo.github.io/orthoLabLogs" />
-    <updated>2024-05-15T23:04:59-05:00</updated>
+    <updated>2024-05-15T23:17:13-05:00</updated>
     <author>
         <name>sporewoh</name>
     </author>
@@ -18,7 +18,7 @@
         <id>https://chrischrislolo.github.io/orthoLabLogs/pocket-keyboard-design-contest-00.html</id>
         <media:content url="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/PXL_20240225_201119535.jpg" medium="image" />
 
-        <updated>2024-05-15T23:04:59-05:00</updated>
+        <updated>2024-05-15T23:17:13-05:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/PXL_20240225_201119535.jpg" alt="" />
@@ -64,8 +64,8 @@
 <p>An ideal entry should fit within a pocket, be a viable alternative to a full sized keyboard, be innovative in its design, and should be easily reproducible by others.</p>
 <p>The scoring criteria is roughly as follows:</p>
 <p><strong>Novelty and Innovation</strong> - The design should be a novel solution to a portable keyboard. Any novel features, gimmicks, or ideas in an entry will be rewarded points.</p>
-<p><strong>Size/Portability</strong> - The keyboard should fit within a pocket. This means that a keyboard must fit within a 190mm x 76mm x 22mm bounding box. More points are awarded the smaller and more portable a keyboard is.</p>
-<p><strong>Viability</strong> - It should be ideally possible to type on the keyboard as fast as a normal keyboard. A monkeytype wpm of atleast 20+ should be doable. Higher words per minutes (50+ wpm) will be awarded additional points. </p>
+<p><strong>Size/Portability</strong> - The keyboard should fit within a pocket. This means that a keyboard must fit within a <strong>190mm x 76mm x 22mm</strong> bounding box. More points are awarded the smaller and more portable a keyboard is.</p>
+<p><strong>Viability</strong> - It should be ideally possible to type on the keyboard as fast as a normal keyboard. A monkeytype wpm of atleast <strong>20+</strong> should be doable. Higher words per minutes (<strong>50+ wpm</strong>) will be awarded additional points. </p>
 <p>It should also be possible to use this keyboard for everyday typing tasks (word editing, programming, etc.). The available character set (number, symbols, modifiers, etc.) will also affect the viability score.</p>
 <p><strong>Reproducibility</strong> - The design should ideally have a clear way as how it can be reproduced by others. Points are earned by having an open source design, reproducible steps, and source/manufacturing files ready to be used. BOM cost and simplicity of replication steps can also affect the reproducibility score.</p>
 <p><strong>Presentation</strong> - The ideal design should look generally appealing when being used. Points will be awarded to entries that have nice enclosure or a visually striking layout. Due to the subjectivity of aesthetics, less weighting is applied to this criteria. </p>
