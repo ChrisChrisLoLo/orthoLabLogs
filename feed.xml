@@ -3,12 +3,91 @@
     <title>Ortho lab logs!!</title>
     <link href="https://chrischrislolo.github.io/orthoLabLogs/feed.xml" rel="self" />
     <link href="https://chrischrislolo.github.io/orthoLabLogs" />
-    <updated>2024-02-25T22:38:27-06:00</updated>
+    <updated>2024-05-15T23:04:59-05:00</updated>
     <author>
         <name>sporewoh</name>
     </author>
     <id>https://chrischrislolo.github.io/orthoLabLogs</id>
 
+    <entry>
+        <title>pocket keyboard design contest #00</title>
+        <author>
+            <name>sporewoh</name>
+        </author>
+        <link href="https://chrischrislolo.github.io/orthoLabLogs/pocket-keyboard-design-contest-00.html"/>
+        <id>https://chrischrislolo.github.io/orthoLabLogs/pocket-keyboard-design-contest-00.html</id>
+        <media:content url="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/PXL_20240225_201119535.jpg" medium="image" />
+
+        <updated>2024-05-15T23:04:59-05:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/PXL_20240225_201119535.jpg" alt="" />
+                    Purpose Outline details, rules, and prizes of the first ever pocket keyboard design contest. Mechanical keyboards are an fun way to interface with a computer thanks to their premium sound and feel. One draw back of many mechanical keyboards, however, is that many of them&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/PXL_20240225_201119535.jpg" class="type:primaryImage" alt="" /></p>
+                <h1 id="purpose">Purpose</h1>
+<p>Outline details, rules, and prizes of the first ever pocket keyboard design contest.</p>
+<h1 id="outline">Outline</h1>
+<p>Mechanical keyboards are an fun way to interface with a computer thanks to their premium sound and feel. One draw back of many mechanical keyboards, however, is that many of them are difficult to commute with and use on the go. A niche of keyboards that addresses this problem are pocket keyboards.</p>
+<p>A pocket keyboards can vary in shape in size, though they are roughly outlined as any keyboard that can fit inside of your pocket. They are extremely portable, and are perfect for commuting and on the go usage. They are also a viable alternative to a traditional mechanical keyboard for everyday use and programming.</p>
+<p>This design competition is to design a keyboard that fits within your pocket and can be used for everyday typing tasks.</p>
+<p>Big thank you to <a href="https://www.pcbway.com/">PCBWay</a> for generously sponsoring the prizes for this design competition!</p>
+<h1 id="timeline">Timeline</h1>
+<p>The contest begins on <strong>May 15</strong>. Entrants have until <strong>August 15 5:00 AM UTC</strong> to submit a new design or modification for a pocket keyboard.</p>
+<p>There will then be a judging period until <strong>September 15th</strong>, after which winners will be determined. Shipping of prizes will occur by around <strong>November 15th</strong>.</p>
+<h1 id="rules">Rules</h1>
+<ul>
+<li>All entries should be keyboards that can connect to a computer</li>
+<li>The keyboard should fit within a 190mm x 76mm x 22mm bounding box. It should also be possible to type atleast 30+ wpm on the keyboard.</li>
+<li>The combined volume of any split keyboard must also fit within this bounding box</li>
+<li>It should be possible to type all characters, numbers, and symbols on the keyboard.</li>
+<li>Up to 2 entries per contestant allowed, a contestant may only win up to 1 prize.</li>
+<li>New keyboard designs are <em>highly encouraged</em>, though designs that you have worked on prior to the competition are allowed.</li>
+<li>All entries valid will be submitted for the chance to win the entry raffle prize.</li>
+<li>Rules and scoring criteria are be subject to change.</li>
+<li>Judge(s) decisions are final.</li>
+<li>Have fun! This event is to celebrate the extreme end of small keyboards</li>
+</ul>
+<h1 id="how-to-enter">How to enter</h1>
+<p>Create an entry by making a new design, and publishing the design along with a writeup and the source files.</p>
+<p>The write up and source files can be hosted on any platform (e.g. Hackster, Hackaday, the <a href="https://www.pcbway.com/project/">PCBWay Community</a>, or on Github). The writeup should include design choices you made and features with the project. The writeup can include information about the layout if a non-standard one has been used. The writeup will play a considerable role in helping judges score your project, and should contain information that will help with scoring and judging.</p>
+<p>Once you have your writeup ready, you can then enter it by sharing it in the #design-competition-entries channel in my discord here: <a href="https://discord.com/invite/m8vwnqJEsc">https://discord.com/invite/m8vwnqJEsc</a></p>
+<h1 id="prizes">Prizes</h1>
+<p>There are currently 6 prizes available.</p>
+<p><strong>Grand Prize (1)</strong>: $200 PCBWay credit, 1 bancouver40 kit (pcb+aluminum case), 1 PCBWay coaster, 1 PCBWay ruler, 1 idawgz32 kit, stickers</p>
+<p><strong>Runner up prizes (4)</strong>: $50 PCBWay credit, 1 PCBWay Coaster, 1 PCBWay ruler, 1 idawgz32 kit, stickers</p>
+<p><strong>Entry raffle prize (1)</strong>: 1 idawgz32 kit</p>
+<h2 id="scoring-criteria">Scoring Criteria</h2>
+<p>An ideal entry should fit within a pocket, be a viable alternative to a full sized keyboard, be innovative in its design, and should be easily reproducible by others.</p>
+<p>The scoring criteria is roughly as follows:</p>
+<p><strong>Novelty and Innovation</strong> - The design should be a novel solution to a portable keyboard. Any novel features, gimmicks, or ideas in an entry will be rewarded points.</p>
+<p><strong>Size/Portability</strong> - The keyboard should fit within a pocket. This means that a keyboard must fit within a 190mm x 76mm x 22mm bounding box. More points are awarded the smaller and more portable a keyboard is.</p>
+<p><strong>Viability</strong> - It should be ideally possible to type on the keyboard as fast as a normal keyboard. A monkeytype wpm of atleast 20+ should be doable. Higher words per minutes (50+ wpm) will be awarded additional points. </p>
+<p>It should also be possible to use this keyboard for everyday typing tasks (word editing, programming, etc.). The available character set (number, symbols, modifiers, etc.) will also affect the viability score.</p>
+<p><strong>Reproducibility</strong> - The design should ideally have a clear way as how it can be reproduced by others. Points are earned by having an open source design, reproducible steps, and source/manufacturing files ready to be used. BOM cost and simplicity of replication steps can also affect the reproducibility score.</p>
+<p><strong>Presentation</strong> - The ideal design should look generally appealing when being used. Points will be awarded to entries that have nice enclosure or a visually striking layout. Due to the subjectivity of aesthetics, less weighting is applied to this criteria. </p>
+<h1 id="inspiration">Inspiration</h1>
+<p>There are a few ways in which to reduce the size of a mechanical keyboard. Here is a list of some (but not all) techniques that can be used, as well as some example projects:</p>
+<ul>
+<li><p><strong>Fewer keys</strong>: A smaller sized keyboard can be done by using fewer keys in conjunction with a powerful keyboard layout. E.g. <a href="https://www.youtube.com/watch?v=5RN_4PQ0j1A">Keyboards</a> by Ben Vallack, the <a href="https://github.com/kilipan/zilpzalp">ZilpZalp</a> by kilipan, <a href="https://github.com/artseyio/thepaintbrush">The Paintbrush</a> from artseyio (though raw ARTSEY boards as-is may have a reduced novelty score due to their popularity), and the <a href="https://github.com/ChrisChrisLoLo/idawgz32">idawgz32</a></p>
+</li>
+<li><p><strong>Tighter key spacing</strong>: It’s possible to fit more keys in a tight space if you play the keys closer than they normally should be. For example, you can space out the MX keys into a 16mm x 16mm grid rather than the typical 19.05mm x 19.05mm grid that they’re usually in. E.g. the <a href="https://github.com/kilipan/zilpzalp">ZilpZalp</a> by kilipan, and the <a href="https://github.com/ChrisChrisLoLo/bancouver40">bancouver40</a></p>
+</li>
+<li><p><strong>Alternative keys</strong>: An easy way of reducing space is to use switches found in mice rather than switches found in keyboards. E.g. the <a href="https://github.com/ChrisChrisLoLo/pusheenz40">pusheenz40</a> and the <a href="https://github.com/ChrisChrisLoLo/bunchiez40">bunchiez40</a>. See here for some small write ups on finding an ideal alternative switch, see: <a href="https://chrischrislolo.github.io/orthoLabLogs/pusheenz40.html">https://chrischrislolo.github.io/orthoLabLogs/pusheenz40.html</a>, <a href="https://chrischrislolo.github.io/orthoLabLogs/bunchiez40-how-i-built-a-keyboard-using-mouse-switches.html">https://chrischrislolo.github.io/orthoLabLogs/bunchiez40-how-i-built-a-keyboard-using-mouse-switches.html</a></p>
+</li>
+</ul>
+<h1 id="terms-and-conditions">Terms and conditions</h1>
+<p>Shipping of prizes within Canada is free, winners who need international shipping for any prizes won will need to pay for shipping.</p>
+<p>Terms and conditions, rules, scoring criteria, etc. may be subject to change.</p>
+<h1 id="acknowledgements">Acknowledgements</h1>
+<p>Thank you <a href="https://www.pcbway.com/">PCBWay</a> for sponsoring this competition! This would not have been possible without your support! </p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>idawgz32 (how I made a keyboard for only $5)</title>
         <author>
@@ -19,7 +98,7 @@
         <media:content url="https://chrischrislolo.github.io/orthoLabLogs/media/posts/9/PXL_20240225_225159875.jpg" medium="image" />
             <category term="keyboard"/>
 
-        <updated>2024-02-25T22:38:27-06:00</updated>
+        <updated>2024-02-26T07:53:30-06:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/9/PXL_20240225_225159875.jpg" alt="" />
