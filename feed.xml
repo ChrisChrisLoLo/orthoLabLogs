@@ -3,7 +3,7 @@
     <title>Ortho lab logs!!</title>
     <link href="https://chrischrislolo.github.io/orthoLabLogs/feed.xml" rel="self" />
     <link href="https://chrischrislolo.github.io/orthoLabLogs" />
-    <updated>2024-06-16T20:56:19-05:00</updated>
+    <updated>2024-07-01T21:09:23-05:00</updated>
     <author>
         <name>sporewoh</name>
     </author>
@@ -18,7 +18,7 @@
         <id>https://chrischrislolo.github.io/orthoLabLogs/pocket-keyboard-design-contest-00.html</id>
         <media:content url="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/PXL_20240225_201119535.jpg" medium="image" />
 
-        <updated>2024-06-16T20:56:19-05:00</updated>
+        <updated>2024-07-01T21:09:23-05:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/PXL_20240225_201119535.jpg" alt="" />
@@ -57,12 +57,14 @@
 <p>PCBs under 100mm*100mm will qualify for PCBWays $5 special offer! Additionally, PCBWay has generously provided a discount code you can use for the contest! Use code <code>pocket-keyboard</code> to get $10 off your PCBWay order of $30 or more! Coupons can be redeemed following this <a href="https://www.pcbway.com/helpcenter/Coupons/How_do_I_redeem_a_coupon_.html">tutorial</a>.</p>
 <p>The write up and source files can be hosted on any platform (e.g. Hackster, Hackaday, the <a href="https://www.pcbway.com/project/">PCBWay Community</a>, or on Github). The writeup should include design choices you made and features with the project. The writeup can include information about the layout if a non-standard one has been used. The writeup will play a considerable role in helping judges score your project, and should contain information that will help with scoring and judging.</p>
 <p>Once you have your writeup ready, you can then enter it by sharing it in the #design-competition-entries channel in my discord here: <a href="https://discord.com/invite/m8vwnqJEsc">https://discord.com/invite/m8vwnqJEsc</a></p>
+<p>Winning designs and entries will be featured on this blog!!!</p>
 <p><figure class="post__image"><img loading="lazy" src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/PXL_20240128_1915100821.jpg" alt="Image description" width="4080" height="3072"  sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240128_1915100821-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240128_1915100821-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240128_1915100821-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240128_1915100821-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240128_1915100821-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240128_1915100821-2xl.jpg 1600w"></figure></p>
 <h1 id="prizes">Prizes</h1>
 <p>There are currently 6 prizes available.</p>
 <p><strong>Grand Prize (1)</strong>: $200 PCBWay credit, 1 bancouver40 kit (pcb+aluminum case), 1 PCBWay coaster, 1 PCBWay ruler, 1 idawgz32 kit, stickers</p>
 <p><strong>Runner up prizes (4)</strong>: $50 PCBWay credit, 1 PCBWay Coaster, 1 PCBWay ruler, 1 idawgz32 kit, stickers</p>
 <p><strong>Entry raffle prize (1)</strong>: 1 idawgz32 kit</p>
+<p>Winners of the Grand Prize and Runner Up Prizes can send me their PCBWay accounts to get the credit!</p>
 <h2 id="scoring-criteria">Scoring Criteria</h2>
 <p>An ideal entry should fit within a pocket, be a viable alternative to a full sized keyboard, be innovative in its design, and should be easily reproducible by others.</p>
 <p>The scoring criteria is roughly as follows:</p>
