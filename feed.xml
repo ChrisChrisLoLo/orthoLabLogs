@@ -3,12 +3,86 @@
     <title>Ortho lab logs!!</title>
     <link href="https://chrischrislolo.github.io/orthoLabLogs/feed.xml" rel="self" />
     <link href="https://chrischrislolo.github.io/orthoLabLogs" />
-    <updated>2024-10-27T13:07:26-05:00</updated>
+    <updated>2025-11-20T18:58:51-06:00</updated>
     <author>
         <name>sporewoh</name>
     </author>
     <id>https://chrischrislolo.github.io/orthoLabLogs</id>
 
+    <entry>
+        <title>loongcat40 (gasket mount + OLED, a new chapter)</title>
+        <author>
+            <name>sporewoh</name>
+        </author>
+        <link href="https://chrischrislolo.github.io/orthoLabLogs/loongcat40-one-of-the-combacks-of-all-time.html"/>
+        <id>https://chrischrislolo.github.io/orthoLabLogs/loongcat40-one-of-the-combacks-of-all-time.html</id>
+        <media:content url="https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/PXL_20251116_045329065.jpg" medium="image" />
+
+        <updated>2025-11-16T13:58:16-06:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/PXL_20251116_045329065.jpg" alt="" />
+                    I'm back babyyyyy Talk about where I've been. Discuss my latest creative endevour, the loongcat40. Talk about interesting technical findings. Outline the new general direction I want to head towards. It's been a while since I've posted to this blog, with my latest posts being&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/PXL_20251116_045329065.jpg" class="type:primaryImage" alt="" /></p>
+                <p>I'm back babyyyyy</p>
+<h2>Purpose:</h2>
+<p>Talk about where I've been. Discuss my latest creative endevour, the <a href="https://github.com/ChrisChrisLoLo/loongcat40/tree/main">loongcat40</a>. Talk about interesting technical findings. Outline the new general direction I want to head towards.</p>
+<figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/PXL_20251116_045329065-2.jpg" alt="" width="4080" height="3072" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_045329065-2-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_045329065-2-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_045329065-2-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_045329065-2-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_045329065-2-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_045329065-2-2xl.jpg 1600w"></figure>
+<h2>Background:</h2>
+<p>It's been a while since I've posted to this blog, with my latest posts being the contest I <a href="https://chrischrislolo.github.io/orthoLabLogs/pocket-keyboard-design-contest-00.html">hosted</a>, as well as the <a href="https://chrischrislolo.github.io/orthoLabLogs/idawgs32-how-i-made-a-full-keyboard-for-dollar6.html">$5 idawgz32</a>. I've been playing around with a few other out-there ideas in the background, but in general I hit a bit of a creative lull. My last wave of keyboards produced came from a place of excitement of making the smallest keyboard possible, and I think the limits of what's possible with the idawgz32. I couldn't really make a smaller keyboard, only due to the fact that my fingers were basically physically pinching together. This effectively was a creative wall, since if my goal was to make the smallest "viable" keyboard, then I've basically hit it. This effectively put a creative end to my current interests and kicked off an unintentional hiatus.</p>
+<p>What brought me back to the hobby though was the Github traffic I was getting on one of my oldest projects, the <a href="https://github.com/ChrisChrisLoLo/banime40">banime40</a>. </p>
+<p><img loading="lazy" src="https://raw.githubusercontent.com/ChrisChrisLoLo/banime40/master/docs/images/IMG_20220319_143632.jpg" width="446" height="335" data-is-external-image="true"></p>
+<p>It seemed that my gasket mounted 4x10 MX spaced ortholinear keyboard from 4 years ago had picked up some steam, particularly within the Japanese keyboard community. It was very inspiring seeing more people pick up a design I worked on long ago. At the same time, I knew that I had learned so much more since then. My ability to use CAD, KiCad, and basic firmware was significantly better than it was back then. I'm am also painfully aware of some of the design flaws that the banime40 has. In my opinion, one of the worst design choices was that the top of the case required superglueing nuts into it to give it threaded holes. This process was tedious, messy, and inaccurate. I also didn't like how the bottom of the case exposed the ProMicro controller.</p>
+<p>As an indirect way of thanking people for using my design, I decided to create a better version with what I know now.</p>
+<h2>Design</h2>
+<p>My new keyboard, the loongcat40, has many similar traits to the banime40 that preceeded it. The loongcat40 features gasket mounting and supports multiple different layouts, in that 2U spacebars and 1U blockers were supported.</p>
+<p>.<figure class="post__image"><img loading="lazy"  src="https://raw.githubusercontent.com/ChrisChrisLoLo/banime40/master/docs/images/keyboard-layout.png" alt="Layout options of the banine40" width="560" height="520" data-is-external-image="true"></figure>
+<p>As improvements, the loongcat40 now features a central SH1122 OLED as a display piece, and uses a Raspberry Pi Pico instead of a Pro Micro. This borrows some design cues from the <a href="https://github.com/ChrisChrisLoLo/keezyboost40">keezyboost40</a>, another relatively popular design I've worked on. The Raspberry Pi Pico allows the keyboard to be more compact than a Pro Micro (thanks to it's castellated pins), makes the BOM cheaper, and the increased memory of the Pico allows for several images to be stored and loaded on the OLED, much more than a Pro Micro would allow for. The keyboard also features custom artwork by &lt;&gt;. To the best of my knowledge, no QMK/ZMK keyboard up to this point has ever used an SH1122 OLED before.</p>
+<figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/PXL_20251116_045037741.MP.jpg" alt="" width="4080" height="3072" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_045037741.MP-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_045037741.MP-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_045037741.MP-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_045037741.MP-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_045037741.MP-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_045037741.MP-2xl.jpg 1600w"></figure>
+<p>The keyboard also has keys that can cycle through different images on the keyboard. All the OLED images you see come from a single firmware binary.</p>
+<h2>Interesting learnings and challenges</h2>
+<p>This project was interesting to me for 2 reasons:</p>
+<p>1. I was "forced" to use FreeCAD</p>
+<p>2. I was "forced" to "learn" how to write display driver firmware</p>
+<h3>"Forced" to use FreeCAD</h3>
+<p>I've recently switched back to using a desktop linux machine from a mac machine. This switch however, has prevented me from using Fusion, which up to this point had been my CAD software of choice. I tried some hacks that attempted to run Fusion on linux, but with little luck. This meant that I'd have to pick up and learn FreeCAD if I wanted to use a CAD software that was linux compatible and supported STEP files (in case I ever wanted to CNC anything.</p>
+<p>In truth, I've kind of dreaded using FreeCAD. Whenever I read up on it, I kept hearing stories of it being fairly buggy due to TNP. I also kept hearing how it roughly took twice the amount of time to design something compared to FreeCAD due to it's fairly bad UI. The two complaints made me worry about sinking any amount of time into learning FreeCAD.</p>
+<p>After spending several hours learning and using FreeCAD 1.0+ for this project, I can safely report that my concerns were either misguided or have been resolved completely. </p>
+<figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/Screenshot-From-2025-11-16-14-48-25.png" alt="" width="1546" height="1172" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/Screenshot-From-2025-11-16-14-48-25-xs.png 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/Screenshot-From-2025-11-16-14-48-25-sm.png 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/Screenshot-From-2025-11-16-14-48-25-md.png 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/Screenshot-From-2025-11-16-14-48-25-lg.png 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/Screenshot-From-2025-11-16-14-48-25-xl.png 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/Screenshot-From-2025-11-16-14-48-25-2xl.png 1600w"></figure>
+<p>FreeCAD certainly is more strict than Fusion is. One common complaint is that you can't easily make multiple extrusions out of the same sketch. As a result, I had to change my traditional workflow of building keyboard cases. Another observation that was a bit of an annoyance was that FreeCAD would make it clear and obvious if you didn't perfectly constrain your sketch. This made me feel obligated to specify every single dimension and constrint within my sketch, something I didn't feel when a rapidly prototyped something in Fusion.</p>
+<p>However, after watching a <a href="https://www.youtube.com/watch?v=ZPsLhvgU8kc">tutorial</a> or two from MangoJelly, once I got a hang of the workflow that FreeCAD expected of me, it felt relatively natural to use. I also think FreeCAD's insistance that I constrain everything helped me considerable when I had to make adjustments to my design. Nine times out of ten, if I needed to tweak a measurement, the model updated exactly how I would expect it to. The one time out of ten was when I set up my constraints incorrectly.</p>
+<p>TNP also wasn't much of an issue, thanks to improvements added in FreeCAD 1.0, and thanks to having a workflow that worked reasonably nicely with FreeCAD (which generally extruding from a sketch and making progressively smaller modifications to the extrusion to add features in).</p>
+<p>It did take more time than Fusion would, primarliy due to it's insistence on constraints, though I suspect the model I've created is much more flexible to parameter tweaks than had I made it in Fusion (only because Fusion lets you get away with more in the short term).</p>
+<p>Overall, I'm fairly happy with FreeCAD for what I used it for, and I think I'll use it more for future projects.</p>
+<h3>"Forced" to "write" display driver firmware</h3>
+<p>Another interesting part of the project was the inclusion of a SH1122 OLED driver. QMK painter, a feature that allows users to easily draw images to a multitude of displays, does not support the SH1122 OLED driver. Writing firmware to support a new driver was a new task for me, and previously one that I am quite bad at. I code professionally, though working with production C code is something I do very little of.</p>
+<p>However, two things helped immensly when making support for the SH1122 driver:</p>
+<p>1. The u8g2 library, a library that supports a _very_ wide range of different display devices</p>
+<p>2. The use of Claude/Cline</p>
+<p>Using Claude proved to be extremely helpful as it was able to cross reference what was done for other OLED drivers within the QMK library against how the u8g2 library worked with the SH1122 driver, and with some massaging, code was produced that allowed QMK painter to work with the SH1122 driver.</p>
+<p>Claude also help me write up a feature that allows the OLED image to be cycled with a press of a button. Ultimately I guided what the feature would look like, but as someone less familiar with C gotchas, Claude proved to be a very nice set of training wheels.</p>
+<p>I'm incredibly happy with this result, since it basically helped me get more familiar with writing more "lower lever" firmware code, or atleast QMK code that wasn't basic configuration. I'm excited to try Claude on Zephyr/ZMK in the near future, as I suspect it'll help me learn and understand the Zephyr framework exponentially faster than me combing through the documentation.</p>
+<p>NOTE: For anyone considering merging the SH1122 driver into mainline QMK:</p>
+<p>1. Thank you very much o7</p>
+<p>2. The SH1122 driver doesn't yet support QMK painter rotation operations, and only supports 2 tone greyscale (i.e. only black and white). Ideally the driver should support rotations as well as 16 tone greyscale, since the OLED IS capable of doing so. </p>
+<h2>Result</h2>
+<p> </p>
+<figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/PXL_20251116_045438397.jpg" alt="" width="4080" height="3072" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_045438397-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_045438397-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_045438397-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_045438397-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_045438397-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_045438397-2xl.jpg 1600w"></figure>
+<p>This project has been a great re-entry back into the hobby. I'm really happy that I've made something that I feel is an improvement on some of my older designs and then some. It was also incredible being able to feature an artist's work in my project. It feels very gratifying being able to feature and showcase artwork I really enjoy, and I'm really happy that I got to be a small part of a larger creative effort.</p>
+<p>Going forward, I plan to make more keyboards with displays in the center, and I hope I can continue to showcase the talent of the artists who I know. I'm really excited to show you all what's in store.</p>
+<h2>Acknowledgements</h2>
+<p>Big thank you to <a href="https://www.nextpcb.com/">NextPCB</a> for making this project possible by providing me the PCBs for this project.</p>
+<figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/PXL_20251116_044838517.jpg" alt="" width="4080" height="3072" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_044838517-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_044838517-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_044838517-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_044838517-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_044838517-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_044838517-2xl.jpg 1600w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/logo.png" alt="" width="242" height="73" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/logo-xs.png 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/logo-sm.png 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/logo-md.png 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/logo-lg.png 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/logo-xl.png 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/logo-2xl.png 1600w"></figure>
+<p>And a big thank you to NextPCB, BeeKeeb, and kurihara for sponsoring me on <a href="https://github.com/ChrisChrisLoLo">Github</a> and <a href="https://ko-fi.com/sporewoh">ko-fi</a>! This project took a considerable amount of resources, especially when printing prototypes for the case, as well as for writing the firmware. This project was made possible with all of your support.</p>
+<p>Another very large thank you to <a href="https://x.com/suh_ga"><span style="font-size: inherit;">@suh_ga</span></a><span style="font-size: inherit;"> f</span><span style="font-size: inherit;">or allowing me to feature their artwork you see on the OLED. The art made greatly surpasses what I would have wanted, and it's an honour to be able to share and showcase their art through this project. The loongcat40 firmware comes with this art pre-installed for everyone to enjoy.</span></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>keyboard design contest #00 results</title>
         <author>
@@ -18,8 +92,8 @@
         <id>https://chrischrislolo.github.io/orthoLabLogs/keyboard-design-contest-00.html</id>
         <media:content url="https://chrischrislolo.github.io/orthoLabLogs/media/posts/12/ToadsTempestF-2.JPG" medium="image" />
 
-        <updated>2024-10-27T13:07:26-05:00</updated>
-            <summary>
+        <updated>2024-10-21T21:24:19-05:00</updated>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/12/ToadsTempestF-2.JPG" alt="" />
                     Overview The results are in! Thank you to everyone who has participated in the contest! I am floored by all of the creativity and thought put into the entries!! I'd like to list out the entries, what I like about each one, and finally outline&hellip;
@@ -81,8 +155,8 @@
         <id>https://chrischrislolo.github.io/orthoLabLogs/pocket-keyboard-design-contest-00.html</id>
         <media:content url="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/PXL_20240225_201119535.jpg" medium="image" />
 
-        <updated>2024-07-01T21:09:23-05:00</updated>
-            <summary>
+        <updated>2024-05-15T22:50:12-05:00</updated>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/PXL_20240225_201119535.jpg" alt="" />
                     Purpose Outline details, rules, and prizes of the first ever pocket keyboard design contest. Mechanical keyboards are an fun way to interface with a computer thanks to their premium sound and feel. One draw back of many mechanical keyboards, however, is that many of them&hellip;
@@ -92,17 +166,9 @@
             <![CDATA[
                     <p><img src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/PXL_20240225_201119535.jpg" class="type:primaryImage" alt="" /></p>
                 <h1 id="purpose">Purpose</h1>
-<p>Outline details, rules, and prizes of the first ever pocket keyboard design contest.</p>
-<h1 id="outline">Outline</h1>
-<p>Mechanical keyboards are an fun way to interface with a computer thanks to their premium sound and feel. One draw back of many mechanical keyboards, however, is that many of them are difficult to commute with and use on the go. A niche of keyboards that addresses this problem are pocket keyboards.</p>
-<p>A pocket keyboards can vary in shape in size, though they are roughly outlined as any keyboard that can fit inside of your pocket. They are extremely portable, and are perfect for commuting and on the go usage. They are also a viable alternative to a traditional mechanical keyboard for everyday use and programming.</p>
-<p>This design competition is to design a keyboard that fits within your pocket and can be used for everyday typing tasks.</p>
-<p>Big thank you to <a href="https://www.pcbway.com/">PCBWay</a> for generously sponsoring the prizes for this design competition!</p>
-<p><figure class="post__image"><img loading="lazy" src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/PXL_20240408_0029595111.jpg" alt="Image description" width="4080" height="3072"  sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240408_0029595111-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240408_0029595111-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240408_0029595111-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240408_0029595111-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240408_0029595111-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240408_0029595111-2xl.jpg 1600w"></figure></p>
-<h1 id="timeline">Timeline</h1>
-<p>The contest begins on <strong>June 10</strong>. Entrants have until <strong>September 10 5:00 AM UTC</strong> to submit a new design or modification for a pocket keyboard.</p>
-<p>There will then be a judging period until <strong>October 10th</strong>, after which winners will be determined. Shipping of prizes will occur by around <strong>January 10th</strong>.</p>
-<h1 id="rules">Rules</h1>
+<p>Outline details, rules, and prizes of the first ever pocket keyboard design contest.</p><h1 id="outline">Outline</h1>
+<p>Mechanical keyboards are an fun way to interface with a computer thanks to their premium sound and feel. One draw back of many mechanical keyboards, however, is that many of them are difficult to commute with and use on the go. A niche of keyboards that addresses this problem are pocket keyboards.</p><p>A pocket keyboards can vary in shape in size, though they are roughly outlined as any keyboard that can fit inside of your pocket. They are extremely portable, and are perfect for commuting and on the go usage. They are also a viable alternative to a traditional mechanical keyboard for everyday use and programming.</p><p>This design competition is to design a keyboard that fits within your pocket and can be used for everyday typing tasks.</p><p>Big thank you to <a href="https://www.pcbway.com/">PCBWay</a> for generously sponsoring the prizes for this design competition!</p><figure class="post__image"><img loading="lazy" src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/PXL_20240408_0029595111.jpg" alt="Image description" width="4080" height="3072" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240408_0029595111-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240408_0029595111-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240408_0029595111-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240408_0029595111-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240408_0029595111-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240408_0029595111-2xl.jpg 1600w"></figure><h1 id="timeline">Timeline</h1>
+<p>The contest begins on <strong>June 10</strong>. Entrants have until <strong>September 10 5:00 AM UTC</strong> to submit a new design or modification for a pocket keyboard.</p><p>There will then be a judging period until <strong>October 10th</strong>, after which winners will be determined. Shipping of prizes will occur by around <strong>January 10th</strong>.</p><h1 id="rules">Rules</h1>
 <ul>
 <li>All entries should be keyboards that can connect to a computer</li>
 <li>The keyboard should fit within a 190mm x 76mm x 22mm bounding box. It should also be possible to type atleast 30+ wpm on the keyboard.</li>
@@ -116,45 +182,17 @@
 <li>Have fun! This event is to celebrate the extreme end of small keyboards</li>
 </ul>
 <h1 id="how-to-enter">How to enter</h1>
-<p>Create an entry by making a new design, and publishing the design along with a writeup and the source files. A functional prototype should be ideally be made.</p>
-<p>PCBs under 100mm*100mm will qualify for PCBWays $5 special offer! Additionally, PCBWay has generously provided a discount code you can use for the contest! Use code <code>pocket-keyboard</code> to get $10 off your PCBWay order of $30 or more! Coupons can be redeemed following this <a href="https://www.pcbway.com/helpcenter/Coupons/How_do_I_redeem_a_coupon_.html">tutorial</a>.</p>
-<p>The write up and source files can be hosted on any platform (e.g. Hackster, Hackaday, the <a href="https://www.pcbway.com/project/">PCBWay Community</a>, or on Github). The writeup should include design choices you made and features with the project. The writeup can include information about the layout if a non-standard one has been used. The writeup will play a considerable role in helping judges score your project, and should contain information that will help with scoring and judging.</p>
-<p>Once you have your writeup ready, you can then enter it by sharing it in the #design-competition-entries channel in my discord here: <a href="https://discord.com/invite/m8vwnqJEsc">https://discord.com/invite/m8vwnqJEsc</a></p>
-<p>Winning designs and entries will be featured on this blog!!!</p>
-<p><figure class="post__image"><img loading="lazy" src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/PXL_20240128_1915100821.jpg" alt="Image description" width="4080" height="3072"  sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240128_1915100821-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240128_1915100821-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240128_1915100821-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240128_1915100821-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240128_1915100821-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240128_1915100821-2xl.jpg 1600w"></figure></p>
-<h1 id="prizes">Prizes</h1>
-<p>There are currently 6 prizes available.</p>
-<p><strong>Grand Prize (1)</strong>: $200 PCBWay credit, 1 bancouver40 kit (pcb+aluminum case), 1 PCBWay coaster, 1 PCBWay ruler, 1 idawgz32 kit, stickers</p>
-<p><strong>Runner up prizes (4)</strong>: $50 PCBWay credit, 1 PCBWay Coaster, 1 PCBWay ruler, 1 idawgz32 kit, stickers</p>
-<p><strong>Entry raffle prize (1)</strong>: 1 idawgz32 kit</p>
-<p>Winners of the Grand Prize and Runner Up Prizes can send me their PCBWay accounts to get the credit!</p>
-<h2 id="scoring-criteria">Scoring Criteria</h2>
-<p>An ideal entry should fit within a pocket, be a viable alternative to a full sized keyboard, be innovative in its design, and should be easily reproducible by others.</p>
-<p>The scoring criteria is roughly as follows:</p>
-<p><strong>Novelty and Innovation</strong> - The design should be a novel solution to a portable keyboard. Any novel features, gimmicks, or ideas in an entry will be rewarded points.</p>
-<p><strong>Size/Portability</strong> - The keyboard should fit within a pocket. This means that a keyboard must fit within a <strong>190mm x 76mm x 22mm</strong> bounding box. More points are awarded the smaller and more portable a keyboard is.</p>
-<p><strong>Viability</strong> - It should be ideally possible to type on the keyboard as fast as a normal keyboard. A monkeytype wpm of atleast <strong>20+</strong> should be doable. Higher words per minutes (<strong>50+ wpm</strong>) will be awarded additional points. </p>
-<p>It should also be possible to use this keyboard for everyday typing tasks (word editing, programming, etc.). The available character set (number, symbols, modifiers, etc.) will also affect the viability score.</p>
-<p><strong>Reproducibility</strong> - The design should ideally have a clear way as how it can be reproduced by others. Points are earned by having an open source design, reproducible steps, and source/manufacturing files ready to be used. BOM cost and simplicity of replication steps can also affect the reproducibility score.</p>
-<p><strong>Presentation</strong> - The ideal design should look generally appealing when being used. Points will be awarded to entries that have nice enclosure or a visually striking layout. Due to the subjectivity of aesthetics, less weighting is applied to this criteria. </p>
-<h1 id="inspiration">Inspiration</h1>
-<p>There are a few ways in which to reduce the size of a mechanical keyboard. Here is a list of some (but not all) techniques that can be used, as well as some example projects:</p>
-<ul>
-<li><p><strong>Fewer keys</strong>: A smaller sized keyboard can be done by using fewer keys in conjunction with a powerful keyboard layout. E.g. <a href="https://www.youtube.com/watch?v=5RN_4PQ0j1A">Keyboards</a> by Ben Vallack, the <a href="https://github.com/kilipan/zilpzalp">ZilpZalp</a> by kilipan, <a href="https://github.com/artseyio/thepaintbrush">The Paintbrush</a> from artseyio (though raw ARTSEY boards as-is may have a reduced novelty score due to their popularity), and the <a href="https://github.com/ChrisChrisLoLo/idawgz32">idawgz32</a></p>
-</li>
-<li><p><strong>Tighter key spacing</strong>: It’s possible to fit more keys in a tight space if you play the keys closer than they normally should be. For example, you can space out the MX keys into a 16mm x 16mm grid rather than the typical 19.05mm x 19.05mm grid that they’re usually in. E.g. the <a href="https://github.com/kilipan/zilpzalp">ZilpZalp</a> by kilipan, and the <a href="https://github.com/ChrisChrisLoLo/bancouver40">bancouver40</a></p>
-</li>
-<li><p><strong>Alternative keys</strong>: An easy way of reducing space is to use switches found in mice rather than switches found in keyboards. E.g. the <a href="https://github.com/ChrisChrisLoLo/pusheenz40">pusheenz40</a> and the <a href="https://github.com/ChrisChrisLoLo/bunchiez40">bunchiez40</a>. See here for some small write ups on finding an ideal alternative switch, see: <a href="https://chrischrislolo.github.io/orthoLabLogs/pusheenz40.html">https://chrischrislolo.github.io/orthoLabLogs/pusheenz40.html</a>, <a href="https://chrischrislolo.github.io/orthoLabLogs/bunchiez40-how-i-built-a-keyboard-using-mouse-switches.html">https://chrischrislolo.github.io/orthoLabLogs/bunchiez40-how-i-built-a-keyboard-using-mouse-switches.html</a></p>
-</li>
+<p>Create an entry by making a new design, and publishing the design along with a writeup and the source files. A functional prototype should be ideally be made.</p><p>PCBs under 100mm*100mm will qualify for PCBWays $5 special offer! Additionally, PCBWay has generously provided a discount code you can use for the contest! Use code <code>pocket-keyboard</code> to get $10 off your PCBWay order of $30 or more! Coupons can be redeemed following this <a href="https://www.pcbway.com/helpcenter/Coupons/How_do_I_redeem_a_coupon_.html">tutorial</a>.</p><p>The write up and source files can be hosted on any platform (e.g. Hackster, Hackaday, the <a href="https://www.pcbway.com/project/">PCBWay Community</a>, or on Github). The writeup should include design choices you made and features with the project. The writeup can include information about the layout if a non-standard one has been used. The writeup will play a considerable role in helping judges score your project, and should contain information that will help with scoring and judging.</p><p>Once you have your writeup ready, you can then enter it by sharing it in the #design-competition-entries channel in my discord here: <a href="https://discord.com/invite/m8vwnqJEsc">https://discord.com/invite/m8vwnqJEsc</a></p><p>Winning designs and entries will be featured on this blog!!!</p><figure class="post__image"><img loading="lazy" src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/PXL_20240128_1915100821.jpg" alt="Image description" width="4080" height="3072" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240128_1915100821-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240128_1915100821-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240128_1915100821-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240128_1915100821-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240128_1915100821-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240128_1915100821-2xl.jpg 1600w"></figure><h1 id="prizes">Prizes</h1>
+<p>There are currently 6 prizes available.</p><p><strong>Grand Prize (1)</strong>: $200 PCBWay credit, 1 bancouver40 kit (pcb+aluminum case), 1 PCBWay coaster, 1 PCBWay ruler, 1 idawgz32 kit, stickers</p><p><strong>Runner up prizes (4)</strong>: $50 PCBWay credit, 1 PCBWay Coaster, 1 PCBWay ruler, 1 idawgz32 kit, stickers</p><p><strong>Entry raffle prize (1)</strong>: 1 idawgz32 kit</p><p>Winners of the Grand Prize and Runner Up Prizes can send me their PCBWay accounts to get the credit!</p><h2 id="scoring-criteria">Scoring Criteria</h2>
+<p>An ideal entry should fit within a pocket, be a viable alternative to a full sized keyboard, be innovative in its design, and should be easily reproducible by others.</p><p>The scoring criteria is roughly as follows:</p><p><strong>Novelty and Innovation</strong> - The design should be a novel solution to a portable keyboard. Any novel features, gimmicks, or ideas in an entry will be rewarded points.</p><p><strong>Size/Portability</strong> - The keyboard should fit within a pocket. This means that a keyboard must fit within a <strong>190mm x 76mm x 22mm</strong> bounding box. More points are awarded the smaller and more portable a keyboard is.</p><p><strong>Viability</strong> - It should be ideally possible to type on the keyboard as fast as a normal keyboard. A monkeytype wpm of atleast <strong>20+</strong> should be doable. Higher words per minutes (<strong>50+ wpm</strong>) will be awarded additional points. </p><p>It should also be possible to use this keyboard for everyday typing tasks (word editing, programming, etc.). The available character set (number, symbols, modifiers, etc.) will also affect the viability score.</p><p><strong>Reproducibility</strong> - The design should ideally have a clear way as how it can be reproduced by others. Points are earned by having an open source design, reproducible steps, and source/manufacturing files ready to be used. BOM cost and simplicity of replication steps can also affect the reproducibility score.</p><p><strong>Presentation</strong> - The ideal design should look generally appealing when being used. Points will be awarded to entries that have nice enclosure or a visually striking layout. Due to the subjectivity of aesthetics, less weighting is applied to this criteria. </p><h1 id="inspiration">Inspiration</h1>
+<p>There are a few ways in which to reduce the size of a mechanical keyboard. Here is a list of some (but not all) techniques that can be used, as well as some example projects:</p><ul>
+<li><p><strong>Fewer keys</strong>: A smaller sized keyboard can be done by using fewer keys in conjunction with a powerful keyboard layout. E.g. <a href="https://www.youtube.com/watch?v=5RN_4PQ0j1A">Keyboards</a> by Ben Vallack, the <a href="https://github.com/kilipan/zilpzalp">ZilpZalp</a> by kilipan, <a href="https://github.com/artseyio/thepaintbrush">The Paintbrush</a> from artseyio (though raw ARTSEY boards as-is may have a reduced novelty score due to their popularity), and the <a href="https://github.com/ChrisChrisLoLo/idawgz32">idawgz32</a></p></li>
+<li><p><strong>Tighter key spacing</strong>: It’s possible to fit more keys in a tight space if you play the keys closer than they normally should be. For example, you can space out the MX keys into a 16mm x 16mm grid rather than the typical 19.05mm x 19.05mm grid that they’re usually in. E.g. the <a href="https://github.com/kilipan/zilpzalp">ZilpZalp</a> by kilipan, and the <a href="https://github.com/ChrisChrisLoLo/bancouver40">bancouver40</a></p></li>
+<li><p><strong>Alternative keys</strong>: An easy way of reducing space is to use switches found in mice rather than switches found in keyboards. E.g. the <a href="https://github.com/ChrisChrisLoLo/pusheenz40">pusheenz40</a> and the <a href="https://github.com/ChrisChrisLoLo/bunchiez40">bunchiez40</a>. See here for some small write ups on finding an ideal alternative switch, see: <a href="https://chrischrislolo.github.io/orthoLabLogs/pusheenz40.html">https://chrischrislolo.github.io/orthoLabLogs/pusheenz40.html</a>, <a href="https://chrischrislolo.github.io/orthoLabLogs/bunchiez40-how-i-built-a-keyboard-using-mouse-switches.html">https://chrischrislolo.github.io/orthoLabLogs/bunchiez40-how-i-built-a-keyboard-using-mouse-switches.html</a></p></li>
 </ul>
-<p><figure class="post__image"><img loading="lazy" src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/PXL_20240225_225522157.jpg" alt="Image description" width="4080" height="3072"  sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240225_225522157-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240225_225522157-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240225_225522157-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240225_225522157-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240225_225522157-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240225_225522157-2xl.jpg 1600w"></figure></p>
-<h1 id="terms-and-conditions">Terms and conditions</h1>
-<p>Shipping of prizes within Canada is free, winners who need international shipping for any prizes won will need to pay for shipping.</p>
-<p>Terms and conditions, rules, scoring criteria, etc. may be subject to change.</p>
-<h1 id="acknowledgements">Acknowledgements</h1>
-<p>Thank you <a href="https://www.pcbway.com/">PCBWay</a> for sponsoring this competition! This would not have been possible without your support! </p>
-<p><figure class="post__image"><img loading="lazy" src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/image-asset.png" alt="Image description" width="2500" height="860"  sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/image-asset-xs.png 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/image-asset-sm.png 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/image-asset-md.png 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/image-asset-lg.png 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/image-asset-xl.png 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/image-asset-2xl.png 1600w"></figure></p>
-
+<figure class="post__image"><img loading="lazy" src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/PXL_20240225_225522157.jpg" alt="Image description" width="4080" height="3072" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240225_225522157-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240225_225522157-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240225_225522157-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240225_225522157-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240225_225522157-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/PXL_20240225_225522157-2xl.jpg 1600w"></figure><h1 id="terms-and-conditions">Terms and conditions</h1>
+<p>Shipping of prizes within Canada is free, winners who need international shipping for any prizes won will need to pay for shipping.</p><p>Terms and conditions, rules, scoring criteria, etc. may be subject to change.</p><h1 id="acknowledgements">Acknowledgements</h1>
+<p>Thank you <a href="https://www.pcbway.com/">PCBWay</a> for sponsoring this competition! This would not have been possible without your support! </p><figure class="post__image"><img loading="lazy" src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/image-asset.png" alt="Image description" width="2500" height="860" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/image-asset-xs.png 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/image-asset-sm.png 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/image-asset-md.png 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/image-asset-lg.png 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/image-asset-xl.png 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/11/responsive/image-asset-2xl.png 1600w"></figure>
             ]]>
         </content>
     </entry>
@@ -168,8 +206,8 @@
         <media:content url="https://chrischrislolo.github.io/orthoLabLogs/media/posts/9/PXL_20240225_225159875.jpg" medium="image" />
             <category term="keyboard"/>
 
-        <updated>2024-02-26T07:53:30-06:00</updated>
-            <summary>
+        <updated>2024-02-25T15:14:18-06:00</updated>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/9/PXL_20240225_225159875.jpg" alt="" />
                     Purpose Discuss design considerations when designing a cost optimized keyboard. Showcase my newest keybaord, the idawgz32, as well as talk about the pros and cons of the board. Discuss my experience using FAK. There's been a huge wave of keyboards using the CH552 microcontroller following&hellip;
@@ -301,8 +339,8 @@ error: contract broken by the value of `layers`
         <media:content url="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/PXL_20240128_191510082-2.jpg" medium="image" />
             <category term="keyboard"/>
 
-        <updated>2024-01-28T22:57:25-06:00</updated>
-            <summary>
+        <updated>2024-01-28T19:13:54-06:00</updated>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/8/PXL_20240128_191510082-2.jpg" alt="" />
                     Purpose: Talk about my latest keyboard, the pusheenz40, as well as the SMD switches it uses. Addtionally cover the design process to make keycaps for the SMD switches. My last pocket keyboard, the modkipz40, was a board that I was fairly satisfied with. It was&hellip;
@@ -366,8 +404,8 @@ error: contract broken by the value of `layers`
         <link href="https://chrischrislolo.github.io/orthoLabLogs/modkipz40-how-i-used-ergogen-for-the-first-time.html"/>
         <id>https://chrischrislolo.github.io/orthoLabLogs/modkipz40-how-i-used-ergogen-for-the-first-time.html</id>
 
-        <updated>2023-12-19T01:09:20-06:00</updated>
-            <summary>
+        <updated>2023-12-12T20:44:01-06:00</updated>
+            <summary type="html">
                 <![CDATA[
                     Purpose: Discuss how I made the modkipz40, my new "ergonomic" pocket board that uses mouse switches. Talk about my first experience using ergogen, it's advantages and drawbacks, as well how this project shifted my view on keyboard ergonomics. I thoroughly enjoyed making and using my&hellip;
                 ]]>
@@ -422,8 +460,8 @@ error: contract broken by the value of `layers`
             <category term="research"/>
             <category term="keyboard"/>
 
-        <updated>2023-12-18T01:54:09-06:00</updated>
-            <summary>
+        <updated>2023-11-26T23:53:29-06:00</updated>
+            <summary type="html">
                 <![CDATA[
                     Objective: bunchiez40 is my new tiny keyboard that uses unique switches to achieve it's form factor while still making it viable to type 85+ wpm on. In this log, I will discuss my cool new keyboard, how I got to this point, as well as&hellip;
                 ]]>
@@ -471,8 +509,8 @@ error: contract broken by the value of `layers`
         <link href="https://chrischrislolo.github.io/orthoLabLogs/my-thoughts-on-openscad-and-why-cad-as-code-is-cool.html"/>
         <id>https://chrischrislolo.github.io/orthoLabLogs/my-thoughts-on-openscad-and-why-cad-as-code-is-cool.html</id>
 
-        <updated>2023-10-29T16:18:22-05:00</updated>
-            <summary>
+        <updated>2023-10-29T00:47:25-05:00</updated>
+            <summary type="html">
                 <![CDATA[
                     Wowowow 3D cool Purpose: This article will talk about my opinions about OpenSCAD, alternatives, and CAD as code as a novice. I want to jot my thoughts down here, but I acknowledge that there's still room for me to find a better solution/workflow than what&hellip;
                 ]]>
@@ -550,8 +588,8 @@ error: contract broken by the value of `layers`
         <link href="https://chrischrislolo.github.io/orthoLabLogs/hello-wormhole.html"/>
         <id>https://chrischrislolo.github.io/orthoLabLogs/hello-wormhole.html</id>
 
-        <updated>2023-10-29T00:23:58-05:00</updated>
-            <summary>
+        <updated>2023-10-25T21:54:06-05:00</updated>
+            <summary type="html">
                 <![CDATA[
                     HELLO!!!!!!!!!!!!!!!!!!!!! This is my test post made with publii. It's very cool as a quick way to whip up blog posts. The current plan is to have all of my keyboard logs/findings/side projects here. Visibility will be low but this is mostly as a way&hellip;
                 ]]>
