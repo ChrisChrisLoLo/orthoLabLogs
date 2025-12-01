@@ -3,7 +3,7 @@
     <title>Ortho lab logs!!</title>
     <link href="https://chrischrislolo.github.io/orthoLabLogs/feed.xml" rel="self" />
     <link href="https://chrischrislolo.github.io/orthoLabLogs" />
-    <updated>2025-11-20T18:58:51-06:00</updated>
+    <updated>2025-11-30T21:39:06-06:00</updated>
     <author>
         <name>sporewoh</name>
     </author>
@@ -78,7 +78,7 @@
 <p>Big thank you to <a href="https://www.nextpcb.com/">NextPCB</a> for making this project possible by providing me the PCBs for this project.</p>
 <figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/PXL_20251116_044838517.jpg" alt="" width="4080" height="3072" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_044838517-xs.jpg 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_044838517-sm.jpg 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_044838517-md.jpg 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_044838517-lg.jpg 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_044838517-xl.jpg 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/PXL_20251116_044838517-2xl.jpg 1600w"></figure>
 <figure class="post__image"><img loading="lazy"  src="https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/logo.png" alt="" width="242" height="73" sizes="100vw" srcset="https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/logo-xs.png 300w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/logo-sm.png 480w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/logo-md.png 768w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/logo-lg.png 1024w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/logo-xl.png 1360w ,https://chrischrislolo.github.io/orthoLabLogs/media/posts/13/responsive/logo-2xl.png 1600w"></figure>
-<p>And a big thank you to NextPCB, BeeKeeb, and kurihara for sponsoring me on <a href="https://github.com/ChrisChrisLoLo">Github</a> and <a href="https://ko-fi.com/sporewoh">ko-fi</a>! This project took a considerable amount of resources, especially when printing prototypes for the case, as well as for writing the firmware. This project was made possible with all of your support.</p>
+<p>And a big thank you to <a href="https://www.nextpcb.com/?code=ChristianLo">NextPCB</a>, BeeKeeb, and kurihara for sponsoring me on <a href="https://github.com/ChrisChrisLoLo">Github</a> and <a href="https://ko-fi.com/sporewoh">ko-fi</a>! This project took a considerable amount of resources, especially when printing prototypes for the case, as well as for writing the firmware. This project was made possible with all of your support.</p>
 <p>Another very large thank you to <a href="https://x.com/suh_ga"><span style="font-size: inherit;">@suh_ga</span></a><span style="font-size: inherit;"> f</span><span style="font-size: inherit;">or allowing me to feature their artwork you see on the OLED. The art made greatly surpasses what I would have wanted, and it's an honour to be able to share and showcase their art through this project. The loongcat40 firmware comes with this art pre-installed for everyone to enjoy.</span></p>
             ]]>
         </content>
